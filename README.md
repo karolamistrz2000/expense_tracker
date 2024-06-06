@@ -1,3 +1,8 @@
+echo "# Personal Expense Tracker" > README.md
+echo "Description of the project..." >> README.md
+git add README.md
+git commit -m "Add README.md"
+git push
 # expense_tracker
 The Personal Expense Tracker is a user-friendly desktop application designed to help individuals manage their finances effectively. Built using Python and Tkinter, this application allows users to log their expenses, track spending by category, set and manage budgets, and receive alerts when nearing or exceeding budget limits. Data is stored locally using SQLite, ensuring persistence across application launches. The intuitive graphical interface provides an easy way to monitor spending habits and make informed financial decisions.
 
